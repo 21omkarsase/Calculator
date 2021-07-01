@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 70px;
+  color: rgb(253, 249, 246);
+  font-family: "Suez One", serif;
+}
+body {
+  background: rgba(0, 0, 0, 0.301)
+    url("https://images.unsplash.com/photo-1561112079-2c3226d9c559?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80")
+    center center/cover no-repeat;
+  background-blend-mode: darken;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  color: yellow;
+  font-size: 22px;
+  font-size: 40px;
+  background-color: black;
+  width: 123px;
+  height: 100px;
+  margin: 10px 5px 0px;
+  border: 5px solid tomato;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input {
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+  width: 519px;
+  border-radius: 7px;
+  border: 5px solid rgb(10, 178, 201);
+  font-size: 40px;
+}
+
+.calculator {
+  display: inline-block;
+  background-color: skyblue;
+  padding: 15px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: #822929;
+  height: 740px;
+}
+
+#backspace {
+  width: 536px;
+}
